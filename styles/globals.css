@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #ddd;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+button:focus {
+  outline: 2px solid #005bb5;
+}
+
+.accordion-header {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  background: #f7f7f7;
+  outline: none;
+}
+
+.accordion-header:hover {
+  background-color: #005bb5;
+}
+
+.accordion-header:focus {
+  outline: 2px solid #005bb5;
+}
+
+.accordion-panel {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background-color: #f9f9f9;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ccc;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
